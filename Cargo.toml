@@ -1,6 +1,6 @@
 [package]
 name = "eggs"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 rust-version = "1.75"
 description = "Type-safe snapshots, diffs, patches and undo/redo history for Rust application state"
