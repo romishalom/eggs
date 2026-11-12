@@ -4,7 +4,7 @@
 
 **Snapshots, diffs, patches and undo/redo for your Rust application state.**
 
-[![crates.io](https://img.shields.io/crates/v/eggs.svg)](https://crates.io/crates/eggs)
+[![crates.io](https://img.shields.io/crates/v/eggs)](https://crates.io/crates/eggs)
 [![docs.rs](https://img.shields.io/docsrs/eggs)](https://docs.rs/eggs)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![MSRV 1.75](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](#minimum-supported-rust-version)
