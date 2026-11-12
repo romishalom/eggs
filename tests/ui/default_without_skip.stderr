@@ -1,0 +1,5 @@
+error: `#[egg(default)]` is only meaningful on `#[egg(skip)]` fields (it supplies the value when a struct is rebuilt from a snapshot)
+ --> tests/ui/default_without_skip.rs:5:5
+  |
+5 |     #[egg(default)]
+  |     ^

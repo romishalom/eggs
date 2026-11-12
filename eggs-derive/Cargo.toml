@@ -1,0 +1,22 @@
+[package]
+name = "eggs-derive"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Derive macro for the `eggs` crate"
+license = "MIT"
+readme = "README.md"
+keywords = ["derive", "snapshot", "undo", "diff"]
+categories = ["development-tools::procedural-macro-helpers"]
+
+[lib]
+proc-macro = true
+
+[features]
+# Emit serde derives on generated snapshot types (enabled by `eggs/serde`).
+serde = []
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["derive", "parsing", "printing", "proc-macro", "clone-impls"] }

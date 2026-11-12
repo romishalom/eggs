@@ -1,0 +1,5 @@
+error: unknown egg attribute `frobnicate`; expected one of: skip, rename, default, ignore_diff, ignore_restore, with, compare_with, strategy
+ --> tests/ui/unknown_attr.rs:5:11
+  |
+5 |     #[egg(frobnicate)]
+  |           ^^^^^^^^^^

@@ -1,0 +1,5 @@
+error: unknown snapshot strategy `cow`; the only supported strategy is "clone"
+ --> tests/ui/bad_strategy.rs:5:22
+  |
+5 |     #[egg(strategy = "cow")]
+  |                      ^^^^^

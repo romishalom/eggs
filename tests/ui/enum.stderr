@@ -1,0 +1,5 @@
+error: `#[derive(Egg)]` does not support enums yet: their variant-change semantics are not defined. Derive on a struct, or implement `eggs::Egg` by hand
+ --> tests/ui/enum.rs:4:1
+  |
+4 | enum Mode {
+  | ^^^^

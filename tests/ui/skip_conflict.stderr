@@ -1,0 +1,5 @@
+error: `#[egg(skip)]` conflicts with `ignore_diff`: a skipped field is already excluded entirely
+ --> tests/ui/skip_conflict.rs:5:5
+  |
+5 |     #[egg(skip, ignore_diff)]
+  |     ^
