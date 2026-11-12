@@ -10,6 +10,7 @@ keywords = ["derive", "snapshot", "undo", "diff"]
 categories = ["development-tools::procedural-macro-helpers"]
 authors = ["Romi Shalom <romishalom01@gmail.com>"]
 repository = "https://github.com/romishalom/eggs"
+documentation = "https://docs.rs/eggs"
 
 [lib]
 proc-macro = true
