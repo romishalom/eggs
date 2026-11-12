@@ -8,6 +8,8 @@ license = "MIT"
 readme = "README.md"
 keywords = ["derive", "snapshot", "undo", "diff"]
 categories = ["development-tools::procedural-macro-helpers"]
+authors = ["Romi Shalom <romishalom01@gmail.com>"]
+repository = "https://github.com/romishalom/eggs"
 
 [lib]
 proc-macro = true
