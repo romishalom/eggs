@@ -27,7 +27,7 @@ test infrastructure, anywhere "go back to how it was" matters.
 
 ```toml
 [dependencies]
-eggs = "0.1"
+eggs = "0.1.1"
 ```
 
 ## Quick start
